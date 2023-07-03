@@ -13,3 +13,9 @@ namespace BibliotecaDevs2Blu
         }
     }
 }
+/*Adicionar um novo livro à biblioteca;
+Excluir um livro da biblioteca;
+Listar todos os livros da biblioteca;
+Realizar o empréstimo de um livro para um usuário;
+Registrar a devolução de um livro.
+*/

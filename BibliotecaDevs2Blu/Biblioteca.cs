@@ -26,5 +26,13 @@ namespace BibliotecaDevs2Blu
         {
             Acervo.Remove(livro);
         }
+        public void ListarTodosLivros()
+        {
+            foreach (Livro L in Acervo)
+            {
+                Console.WriteLine(L.Titulo);
+            }
+        }
+
     }
 }

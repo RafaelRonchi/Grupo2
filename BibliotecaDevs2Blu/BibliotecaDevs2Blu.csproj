@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Biblioteca.cs" />
     <Compile Include="Emprestimo.cs" />
+    <Compile Include="EnumSituacao.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Leitor.cs" />
     <Compile Include="Livro.cs" />
     <Compile Include="Program.cs" />

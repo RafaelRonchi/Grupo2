@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace BibliotecaDevs2Blu
 {
-    public class Livro
+    public class Livro : Item
     {
         public string Titulo { get; set; }
+        public int NumeroPaginas { get; set; }
+        public DateTime DataLancamento { get; set; }
+
+
         public Livro(string titulo)
         {
             Titulo = titulo;
