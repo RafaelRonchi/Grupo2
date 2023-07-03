@@ -14,7 +14,7 @@ namespace BibliotecaDevs2Blu
             while (!flag)
             {
                 Console.WriteLine("\n Bem vindo ao sistema Biblioteca");
-                Biblioteca biblioteca = new Biblioteca();
+                Biblioteca biblioteca = new Biblioteca("A");
 
                 Console.WriteLine("\n O que desejas fazer: ");
                 Console.WriteLine("\n 1 - Movimentação");
@@ -106,7 +106,7 @@ namespace BibliotecaDevs2Blu
                                 Console.WriteLine("\n Digite o título do livro: ");
                                 string nome = Console.ReadLine();
                                 Livro livro1 = new Livro(id, nome);
-                                biblioteca.Acervo.Add(livro1);
+                                biblioteca.AdicionarLivro(livro1);
 
                                 break;
                             case "2":

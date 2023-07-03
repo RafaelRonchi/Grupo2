@@ -19,9 +19,7 @@ namespace BibliotecaDevs2Blu
             Acervo = new List<Livro>();
         }
 
-        public Biblioteca()
-        {
-        }
+        
 
         public void AdicionarLivro(Livro livro)
         {
