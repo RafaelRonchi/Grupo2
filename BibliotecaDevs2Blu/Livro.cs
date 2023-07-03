@@ -15,7 +15,6 @@ namespace BibliotecaDevs2Blu
         public int NumeroPaginas { get; set; }
         public DateTime DataLancamento { get; set; }
 
-
         public Livro(string titulo)
         {
             Titulo = titulo;

@@ -8,6 +8,9 @@ namespace BibliotecaDevs2Blu
 {
     public enum EnumSituacao
     {
-        Disponivel,Emprestado,Reservado,Indisponivel
+        Disponivel,
+        Emprestado,
+        Reservado,
+        Indisponivel
     }
 }
