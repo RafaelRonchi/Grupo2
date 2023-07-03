@@ -11,7 +11,7 @@ namespace BibliotecaDevs2Blu
         static void Main(string[] args)
         {
             bool flag = false;
-            while (flag)
+            while (!flag)
             {
                 Console.WriteLine("\n Bem vindo ao sistema Biblioteca");
                 Biblioteca biblioteca = new Biblioteca();
