@@ -11,10 +11,16 @@ namespace BibliotecaDevs2Blu
         public string Nome { get; set; }
         public List<Livro> Acervo { get; set; }
 
+
+
         public Biblioteca(string nome)
         {
             Nome = nome;
             Acervo = new List<Livro>();
+        }
+
+        public Biblioteca()
+        {
         }
 
         public void AdicionarLivro(Livro livro)
@@ -22,9 +28,9 @@ namespace BibliotecaDevs2Blu
             Acervo.Add(livro);
         }
 
-        public void RemoverLivro(Livro livro)
+        public void RemoverLivro(int id)
         {
-            Acervo.Remove(livro);
+            Acervo.RemoveAll(l => l.Id == id);
         }
 
         public void ListarTodosLivros()
