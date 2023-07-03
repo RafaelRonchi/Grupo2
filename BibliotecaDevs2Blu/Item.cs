@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BibliotecaDevs2Blu
 {
-    internal  class Item
+    public  interface I_Item
     {
-        public int Id { get; set; }
-        public int DataEntrada { get; set; }
-        public EnumSituacao Situacao { get; set; }
+        int Id { get; set; }
+        int DataEntrada { get; set; }
+        EnumSituacao Situacao { get; set; }
     }
 }
